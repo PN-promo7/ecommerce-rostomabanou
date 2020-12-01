@@ -1,0 +1,264 @@
+* {
+  box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
+}
+
+.container {
+  width: 1170px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+/* Tailles de textes */
+h1 {
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  color: black;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-size: 1rem;
+}
+
+p {
+  font-family: 'Lato';
+}
+
+.dpflex {
+  justify-content: space-between;
+  display: flex;
+}
+
+.btn {
+  background-color: black;
+  padding: 4px 46px;
+  border-radius: 10px;
+  color: white;
+}
+
+.btn:hover {
+  color: red;
+}
+
+body, ul {
+  margin: 0;
+}
+
+body {
+  position: relative;
+}
+
+/* Nav */
+nav {
+  background-color: white;
+  padding: 15px 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+nav .dpflex {
+  align-items: center;
+}
+
+.logo {
+  height: 100px;
+}
+
+.barrederecherche {
+  padding: 10px;
+}
+
+.barre-decoration {
+  border-radius: 10px;
+}
+
+.inline li {
+  display: inline-block;
+  margin-right: 20px
+}
+
+.inline-categorie-nav li {
+  padding: 10px;
+  margin: 20px;
+  display: inline-block;
+}
+
+/* Header */
+header {
+  background-image: url(photolibrededroit/photoduheader.jpg);
+  background-size: cover;
+  background-position: top;
+  padding: 200px 0px;
+  margin-bottom: 10px;
+  margin-top: 146px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Categorie Homme Femme */
+.categorie:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 500ms;
+}
+
+.categorie {
+  text-align: center;
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.categoriephoto {
+  width: 100%;
+}
+
+.categorie article {
+  display: inline-block;
+}
+
+/* Articles */
+.product {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.description {
+  position: relative;
+}
+
+.art-pic {
+  height: 300px;
+}
+
+article .fa-heart {
+  color: red;
+  font-size: 19px;
+  position: absolute;
+  right: 13px;
+  top: 10px;
+}
+
+.nouveauter {
+  background-color: #DCDCDC;
+  padding: 20px 0px;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: black;
+}
+
+/* Bandeau Promotionnelle */
+.bandeaupromo {
+  background-image: url(photolibrededroit/imagebandeaupromo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px;
+  color: white;
+}
+
+/* Service Offerts */
+.service {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  padding-top: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.service h3 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.fa-undo-alt {
+  font-size: 40px;
+}
+
+.back-to-top {
+  bottom: 20px;
+  font-size: 1.5rem;
+  position: fixed;
+  right: 40px;
+}
+
+/* Newsletter */
+.newsletter {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.btn-newsletter {
+  background-color: black;
+  padding: 2px 34px;
+  border-radius: 10px;
+  color: white;
+}
+
+.btn-newsletter:hover {
+  color: red;
+  transition: 2s;
+}
+
+.newsletter p {
+  color: black;
+  font-size: 1rem;
+  margin: 0;
+  text-align: center;
+}
+
+.btn-ici {
+  background-color: #DCDCDC;
+  color: black;
+  text-align: center;
+}
+
+/* Reseaux Sociaux */
+.reseaux, .about, .liens-utiles {
+  list-style: none;
+}
+
+.reseaux {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fa-facebook-f {
+  font-size: 40px;
+  color: blue;
+}
+
+.fa-twitter {
+  font-size: 40px;
+  color: #00acee
+}
+
+.fa-instagram {
+  font-size: 40px;
+}
+
+/* Footer */
+footer {
+  background-color: #DCDCDC;
+  padding: 15px 25px;
+  text-align: center;
+}
+
+.partie1, .partie2, .partie3 {
+  width: 33%;
+}

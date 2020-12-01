@@ -1,0 +1,107 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 667px) {
+
+  /* Styles */
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* Nav*/
+  .fa-bars:before {
+    font-size: 40px;
+  }
+
+  .nav-bar {
+    display: flex;
+  }
+
+  nav .dpflex {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    height: 80px;
+  }
+
+  /* Display none sur la nav */
+  .barrederecherche {
+    display: none;
+  }
+
+  .inline-categorie-nav {
+    display: none;
+  }
+
+  .icones {
+    display: none;
+  }
+
+  /* Categorie homme femme */
+  .categorie {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .cat-space {
+    margin-right: 10px;
+  }
+
+  /* Articles */
+  .product {
+    margin-bottom: 20px;
+  }
+
+  /* Bandeau Promotionnelle */
+  .bandeaupromo {
+    font-size: 30px;
+  }
+
+  .btn {
+    padding: 4px 28px;
+  }
+
+  .back-to-top {
+    display: none;
+  }
+
+  .service h3 {
+    font-size: 0.7rem;
+  }
+
+  .dpflex {
+    justify-content: center;
+  }
+
+  /* Reseau sociaux */
+  .reseaux {
+    padding: 0px;
+  }
+
+  .fa-facebook-f {
+    font-size: 30px;
+  }
+
+  .fa-twitter {
+    font-size: 30px;
+  }
+
+  .fa-instagram {
+    font-size: 30px;
+  }
+
+  /* Footer */
+  footer li {
+    font-size: 0.4rem;
+  }
+
+  .partie2 {
+    font-size: 0.8rem;
+  }
+
+  .liens-utiles {
+    padding-left: 0px;
+  }
